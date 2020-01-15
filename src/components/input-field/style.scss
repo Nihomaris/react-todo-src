@@ -1,0 +1,22 @@
+.input-field {
+    display: flex;
+    padding: 0 10px;
+
+    &__form {
+        width: 100%;
+    }
+
+    &__form-group {
+        margin-bottom: 0;
+    }
+
+    &__indicator {
+        cursor: pointer;
+        margin-right: 10px;
+        padding-top: 4px;
+
+        &:active {
+            color: #a4a4a4;
+        }
+    }
+}

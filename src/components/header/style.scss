@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    padding: 5px 10px;
+    background-color: #d9d9d9;
+
+    &__title {}
+
+    &__remove {
+        cursor: pointer;
+        margin-left: auto;
+
+        &:active {
+            color: #a4a4a4;
+        }
+    }
+}
